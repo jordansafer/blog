@@ -33,9 +33,11 @@ jobs:
     - name: Commit files
       run: |
         echo node_modules > .gitignore
+        git add public
+        ls public
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "New Site" -a
+        git commit -m "Site update"
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.5.0
       with:  
