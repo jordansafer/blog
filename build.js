@@ -8,9 +8,9 @@
 */
 
 // variables
-const baseUrl = "/"
+const baseUrl = "/blog/"
 const siteName = "Example Metalsmith Blog"
-const siteRoot = "https://www.example.com/"
+const siteRoot = "https://jordansafer.github.io/"
 const navItems = [
     { href: "index.html", text: "Posts" }
 ]
