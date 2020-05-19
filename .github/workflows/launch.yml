@@ -32,9 +32,8 @@ jobs:
       run: npm start
     - name: Commit files
       run: |
-        echo node_modules > .gitignore
-        git add public
-        ls public
+        mv public/* .
+        git add .
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "Site update"
@@ -42,5 +41,5 @@ jobs:
       uses: ad-m/github-push-action@v0.5.0
       with:  
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: site
+        branch: gh-pages
         force: true
