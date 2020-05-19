@@ -1,5 +1,8 @@
 {
-  "private": true,
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "A working example Metalsmith blog, suitable for use as a template for your own site.",
+  "main": "build.js",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "jstransformer-pug": "^0.3.0",
@@ -14,5 +17,22 @@
     "metalsmith-pug": "^2.0.0",
     "metalsmith-sass": "^1.7.0",
     "metalsmith-sitemap": "^1.2.2"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "scripts": {
+    "test": "eslint --fix build.js",
+    "start": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordansafer/metalsmith-blog-example.git"
+  },
+  "author": "Jordan Safer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordansafer/metalsmith-blog-example/issues"
+  },
+  "homepage": "https://github.com/jordansafer/metalsmith-blog-example#readme"
 }
