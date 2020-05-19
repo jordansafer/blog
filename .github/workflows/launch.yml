@@ -30,6 +30,12 @@ jobs:
         npm test
     - name: build site
       run: npm start
+    - name: Commit files
+      run: |
+        echo node_modules > .gitignore
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "New Site" -a
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.5.0
       with:  
