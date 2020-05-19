@@ -32,6 +32,7 @@ jobs:
       run: npm start
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.5.0
-      with:
+      with:  
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: site
         force: true
