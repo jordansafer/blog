@@ -6,8 +6,10 @@ block title
 block main
     each file in pagination.files
         section
-            h1.mb-3
-                a(href=`${site.baseUrl}${file.path}`) #{file.title}
+            div.card
+                h2.mb-3
+                    a(href=`${site.baseUrl}${file.path}`) #{file.title}
+                h5 #{file.date}
 
 block footer
     nav.row.navbar.navbar-expand.navbar-light.bg-light.mb-3

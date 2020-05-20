@@ -9,7 +9,7 @@
 
 // variables
 const baseUrl = "/blog/"
-const siteName = "Example Metalsmith Blog"
+const siteName = "the anything blog :)"
 const siteRoot = "https://jordansafer.github.io/"
 const navItems = [
     { href: "index.html", text: "Posts" }
@@ -65,7 +65,7 @@ metalsmith(__dirname)
     .use(pagination({
         "collections.posts": {
             layout: "index.pug",
-            perPage: 4,
+            perPage: 25,
             first: "index.html",
             noPageOne: true,
             path: "index-:num.html",
