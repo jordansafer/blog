@@ -1,23 +1,36 @@
 @import "bootstrap";
 
+$font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+$green: #81A594;
+$blue: #00628B;
+$tan: #E6E6DC;
+
+p {
+    font-family: $font
+}
+
 .card {
-  background-color: #E6E6DC;
-  padding: 20px;
-  margin-top: 20px;
+    background-color: $tan;
+    padding: 1.5vw;
+    margin-top: 1.5vw;
+    border-radius: 1.5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .post {
-    color: #00628B;
+    color: $blue;
 }
 
 body.blog {
-    background-color: #81A594;
-}
-
-.navbar {
-    background-color: #E6E6DC;
+    background-color: $green;
 }
 
 article {
-    background-color: #E6E6DC;
+    background-color: $tan;
+    padding: 5vw;
+    border-radius: 5vw;
 }
