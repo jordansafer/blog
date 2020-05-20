@@ -1,5 +1,5 @@
 ---
-title: Post \#1
+title: Post 1
 date: 2019-01-09
 layout: post.pug
 ---

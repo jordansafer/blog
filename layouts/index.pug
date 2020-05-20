@@ -8,7 +8,7 @@ block main
         section
             div.card
                 h2.mb-3
-                    a(href=`${site.baseUrl}${file.path}`) #{file.title}
+                    a.post(href=`${site.baseUrl}${file.path}`) #{file.title}
                 h5 #{file.date}
 
 block footer
