@@ -8,12 +8,6 @@ block main
         section
             h1.mb-3
                 a(href=`${site.baseUrl}${file.path}`) #{file.title}
-            if file.less
-                div!= file.less
-                p
-                    a(href=`${site.baseUrl}${file.path}`) More
-            else
-                div!= file.contents
 
 block footer
     nav.row.navbar.navbar-expand.navbar-light.bg-light.mb-3
