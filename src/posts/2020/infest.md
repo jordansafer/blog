@@ -36,3 +36,5 @@ Luckily, the cat treatment was effective, and Friday was much better. After the 
 
 Saturday, I put on the permethrin cream and continued to feel the crawling feeling all day. The biting/crawling does seem to be much less severe since the cats were treated on Thursday. It's not clear whether the flea traps actually caught anything, but the black dots I see around are too small for me to tell with the naked eye. And .... that brings us up to date! Fingers crossed the crawling feeling is finally just imaginary and that I wake up one day without any new bites! I do not appreciate the migration from my now-hairless legs to my belly/chest hair.
 
+End notes: Not entirely clear if the problem was solved permanently. Much later I got bites on my torso, put out a trap, and caught 3 tiger mosquitos.
+
